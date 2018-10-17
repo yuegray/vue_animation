@@ -25,13 +25,14 @@ export default {
         transition: all 2s ease;
     }
     .slide-fade-enter {
-        transform: translateX(-200px);
+        transform: translateX(-100px);
         opacity: 0;
     }
     .slide-fade-leave-to {
         transform: translateX(100px);
         opacity: 0;
     }
+
 </style>
 
 //css 过渡
